@@ -1,0 +1,392 @@
+
+body {
+    font-family: 'Lora', serif;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    margin-left: 2rem;
+    color: rgb(4, 4, 93);
+}
+
+.mikalto {
+    font-size: 2rem;
+}
+
+.hotel-resort {
+    margin-top: -2.2rem;
+    margin-left: 1rem;
+    font-size: 0.6rem;    
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.4rem;
+    margin-top: 2.4rem;
+    margin-left: 20rem;
+
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: rgb(4, 4, 93);
+}
+
+.vacation {
+    background-image: url("./images/resort.jpeg");
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.about {
+    display: flex;
+    flex-flow: column;
+    font-size: 2rem;
+    color: rgb(4, 43, 43);
+    margin-top: 8rem;
+    margin-left: 7.8rem;
+}
+.vacation-text {
+    margin-top: -2.3rem;
+}
+
+.beautiful-hideaway {
+    margin-top: -0.3rem;
+    font-size: 0.7rem;
+}
+
+.two-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.two-buttons a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.two-buttons a:hover {
+    color:rgb(4, 4, 93);
+    background-color: #ffffff;
+}
+
+.search-room {
+    margin-top: 4rem;
+    margin-left: 20rem;
+    margin-right: 7rem;
+    margin-bottom: 4rem;
+    padding: 1rem 4rem 2.5rem 2rem;
+    background-color: #ffffff;
+    font-size: 1.6rem;
+    color:rgb(18, 18, 19);
+}
+
+.latest-response {
+    margin-top: -1.2rem;
+    font-size: 0.7rem;
+}
+
+.check-date {
+    display:flex;
+    font-size: 0.9rem;
+    color: rgb(4, 4, 93);
+    gap: 4rem;
+}
+
+.check-in-out {
+    display: flex;
+    flex-flow: column;
+}
+
+.tourists {
+    display:flex;
+    flex-flow: column;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: rgb(4, 4, 93);
+}
+
+input {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+select {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+.check button{
+    background-color: rgb(4, 4, 93);
+    color: #ffffff;
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem 8rem 1rem 8rem;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-lines {
+    display:flex;
+    flex-flow: column;
+    margin-top: 8rem;
+    margin-left: 14rem;
+}
+
+.welcome-text {
+    font-size: 0.9rem;
+}
+
+.mikalto-text {
+    font-size: 2rem;
+    margin-top: -0.2rem;
+}
+
+.comfort-text {
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+
+.welcome-passage-and-manager {
+    margin-top: -0.6rem;
+    margin-right: 50rem;
+}
+
+.sign-image {
+    max-width: 100%;
+    width: 10rem;
+}
+
+.man-cooking {
+    margin-top: 5rem;
+    margin-left: -40rem;
+    width: 15rem;
+}
+
+.window-view {
+    margin-bottom: 3rem;
+    margin-left: -2.2rem;
+    width: 20rem;
+}
+
+.hotel-view {
+    margin-left: -27rem;
+    margin-bottom: -6rem;
+    width: 20rem;
+}
+
+/* skipped */
+.why-text {
+    margin-top: 4rem;
+    margin-left: 14rem;
+    font-size: 2rem;
+}
+
+.causes {
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 7rem;
+    gap: 3rem;
+}
+
+.causes img {
+    max-width: 100%;
+    width: 6rem;
+    height: 5rem;
+}
+
+.particular-cause {
+    display: flex;
+}
+
+.location-image {
+    max-width: 100%;
+    width: 6rem;
+    height: 5rem;
+}
+
+.activity-reconnect {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+@media screen and (max-width:320px){
+    .header {
+        margin-left: 2rem;
+    }
+
+    .mikalto {
+        font-size: 2rem;
+    }
+    
+    .hotel-resort {
+        margin-top: -2.2rem;
+        margin-left: 0.2rem;
+        font-size: 0.6rem;    
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .vacation {
+        margin-top: 2rem;
+        margin-left: -0.7rem;
+        margin-right: -0.2rem;
+        background-size: 22rem;
+        background-repeat: no-repeat;
+    }
+
+    .vacation {
+        display:flex;
+        flex-flow: column;
+    }
+
+    .about {
+        display: flex;
+        flex-flow: column;
+        font-size: 1.8rem;
+        color: rgb(200, 242, 242);
+        /* text-shadow: black; */
+        margin-top: -1.4rem;
+        margin-left: 2rem;
+        margin-right: 10rem;
+    }
+
+    .vacation-text {
+        margin-top: -1.3rem;
+    }
+
+    .beautiful-hideaway {
+        display: none;
+    }
+
+    .two-buttons {
+        margin-top: -1rem;
+        margin-left: 6rem;
+    }
+
+    .view-button {
+        margin-left: 1rem;
+    }
+
+    .two-buttons a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    .search-room {
+        margin-top: 0.2rem;
+        margin-left: -1rem;
+        font-size: 1.6rem;
+    }
+
+    .check-date {
+        display:flex;
+        font-size: 0.8rem;
+        color: rgb(4, 4, 93);
+        gap: 1rem;
+    }
+
+    .check button {
+        margin-left:-0.5rem;
+    }
+
+    .tourists {
+        font-size: 0.8rem;
+    }
+
+    .search-room-text {
+        font-size: 1.27rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .welcome {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+    }
+
+    .welcome-lines {
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+
+    .welcome-images {
+        position: absolute;
+        top:1rem;
+    }
+
+    .man-cooking {
+        margin-left: 1rem;
+        width: 8.6rem;
+    }
+
+    .window-view {
+        margin-bottom: 3rem;
+        margin-left: -1.5rem;
+        width: 10rem;
+    }
+    
+    .hotel-view {
+        margin-left: 3rem;
+        margin-top: -3.7rem;
+        margin-bottom: 11rem;
+        width: 12rem;
+    }
+
+    .words-of-manager {
+        top:12rem;
+        position: relative;
+    }
+
+    .welcome-passage-and-manager {
+        margin-bottom: -0.1rem;
+        margin-top: 5rem;
+        margin-right: -0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .sign-image {
+        position: absolute;
+        top: 12rem;
+    }
+
+    .manager {
+        margin-top: 6rem;
+    }
+
+    /* skipped */
+    .why-text {
+        margin-top: 15rem;
+        margin-left: -0.1rem;
+        font-size: 2rem;
+    }
+
+    .causes {
+        flex-flow: column;
+    }
+
+    .particular-cause {
+        margin-left: -12rem;   
+    }
+
+    .cause-text {
+        margin-top: 2rem;
+        margin-left: -4rem;
+        margin-right: -7rem;
+        font-size: 1rem;
+    }
+}
