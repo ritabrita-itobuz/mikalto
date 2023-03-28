@@ -1520,5 +1520,60 @@ select {
     .about-activity img {
         width: 44rem;
     }
+
+    .experience h3 {
+        font-size: 2.4rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .experience button {
+        margin-left: 40rem;
+        margin-right: 12rem;
+    }
+
+    .entertainment {
+        flex-flow: row;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 1rem;
+    }
+
+    .entertainment-items img {
+        width: 20rem;
+        height: 17rem;
+    }
+
+    .entertainment-description {
+        margin-right: 1rem;
+    }
+
+    .say-hello img {
+        max-width: 100%;
+        width: 100rem;
+        height: 30rem;
+    }
+
+    .say-box {
+        margin-left: 50rem;
+        margin-right: 4rem;
+    }
+
+    .customer-review {
+        flex-flow: row;
+    }
+
+    .getting-there {
+        flex-flow: row;
+    }
+
+    .map-image {
+        margin-right: 6rem;
+    }
+
+    .routes {
+        margin-left: 8rem;
+    }
     
 }
