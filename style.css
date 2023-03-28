@@ -570,6 +570,51 @@ select {
         font-size: 0.8rem;
     }
 
+    .getting-there {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .getting-text {
+        font-size: 0.6rem;
+        margin-top: 1rem;
+        margin-left: 6rem;
+    }
+
+    .routes h3{
+        margin-top: -0.2rem;
+        margin-left: 4rem;
+    }
+
+    .route-text {
+        margin-left: 1rem;
+        margin-right: -0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .vehicle {
+        display:flex;
+    }
+
+    .vehicle img {
+        width:3rem;
+        height: 4rem;
+        margin-top: 0.5rem;
+    }
+
+    .vehicle p {
+        margin-top: -1rem;
+        font-size: 0.7rem;
+    }
+
+    .routes a {
+        text-decoration: none;
+        color:rgb(5, 5, 104);
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: 0.7rem;
+    }
+
 }
 
 @media screen and (min-width: 375px){
@@ -880,13 +925,13 @@ select {
         /* gap: 4rem; */
         left: -5rem;
         margin-left: -0.1rem;
-        margin-right: 1rem;
+        margin-right: 2rem;
         font-size: 0.8rem;
     }
 
     .vacation {
         background-image: url("./images/resort.jpeg");
-        background-size: 40rem;
+        background-size: 62rem;
         display: flex;
         flex-flow: row;
         margin-left: -2rem;
@@ -930,9 +975,9 @@ select {
     }
 
     .search-room {
-        margin-top: 0.5rem;
-        margin-left: -6rem;
-        margin-right: 7rem;
+        margin-top: 3rem;
+        margin-left: -4rem;
+        margin-right: 5rem;
         border: 1px solid black;
         font-size: 1.6rem;
     }
@@ -967,7 +1012,7 @@ select {
     .welcome-lines {
         display:flex;
         flex-flow: column;
-        margin-top: -4rem;
+        margin-top: -0.1rem;
         margin-left: -0.2rem;
     }
     
@@ -988,7 +1033,7 @@ select {
     .welcome-passage-and-manager {
         margin-top: -14rem;
         margin-right: 10rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .manager {
@@ -996,7 +1041,7 @@ select {
     }
     
     .sign-image {
-        margin-top: -19rem;
+        margin-top: -22rem;
         margin-bottom: 0.5rem;
         max-width: 100%;
         width: 10rem;
@@ -1021,14 +1066,14 @@ select {
     
     .hotel-view {
         margin-left: 3rem;
-        margin-top: -3.7rem;
+        margin-top: -1rem;
         margin-bottom: 11rem;
         width: 20rem;
     }
     /* skipped */
     .why-text {
         margin-top: 30rem;
-        margin-left: -0.1rem;
+        margin-left: 2rem;
         font-size: 2rem;
     }
 
@@ -1044,7 +1089,11 @@ select {
         margin-top: 2rem;
         margin-left: -4rem;
         margin-right: -7rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .cause-name {
+        font-size: 1.4rem;
     }
 }
 
