@@ -250,7 +250,6 @@ select {
         flex-flow: column;
         font-size: 1.8rem;
         color: rgb(200, 242, 242);
-        /* text-shadow: black; */
         margin-top: -1.4rem;
         margin-left: 2rem;
         margin-right: 10rem;
@@ -409,7 +408,6 @@ select {
         margin-left: 1.5rem;
         font-size: 0.9rem;
         color: rgb(252, 251, 249);
-        /* text-align: center; */
     }
 
     .activity-and-reconnect a {
@@ -508,15 +506,16 @@ select {
     .say-box {
         color: rgb(13, 13, 13);
         background-color: white;
+        opacity: 0.8;
         position: absolute;
         margin-top: -14rem;
-        margin-left: 8rem;
+        margin-left: 1.5rem;
         padding-left: 0.7rem;
-        padding-right: 1rem;
-        width: 9rem;
+        width: 15rem;
         border: 1px solid black;
 
     }
+
 
     .say-box button {
         margin-bottom: 0.2rem;
@@ -562,7 +561,6 @@ select {
 
     .review-summary, .review {
         margin-left: 1rem;
-        /* margin-top: -0.1rem; */
     }
 
     .review {
@@ -610,26 +608,102 @@ select {
     .routes a {
         text-decoration: none;
         color:rgb(5, 5, 104);
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin-top: 1rem;
         margin-left: 0.7rem;
     }
 
+    .map-image {
+        margin-top: 0.6rem;
+    }
+
+    .side-by-side {
+        background-color: rgb(247, 216, 175);
+    }
+
+    .side-by-side h5 {
+        margin-left: 6rem;
+        color:rgb(5, 5, 104);
+    }
+
+    .side-by-side h3 {
+        margin-top: -1rem;
+        margin-left: 3rem;
+        color:rgb(13, 13, 14);
+    }
+
+    .side-by-side p {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .side-by-side button {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+        background-color: rgb(5, 5, 104);
+        color: #ffffff;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+
+    .side-images {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .side-images img {
+        width:19rem;
+    }
+
+    .side-pictures img {
+        display: none;
+    }
+
+    .inbox h5 {
+        text-align: center;
+        color: rgb(5, 5, 104);
+    }
+
+    .inbox h3 {
+        text-align: center;
+    }
+
+    .mail-input {
+        display: flex;
+        flex-flow: column;
+        border: 1px solid grey;
+    }
+
+    .mail-input input {
+        border-style: hidden;
+        margin-top: 1rem;
+    }
+
+    input::placeholder {
+        text-align: center;
+    }
+
+    .mail-input button {
+        background-color: rgb(5, 5, 104);
+        color: #ffffff;
+        margin: 1rem 3rem 2rem 3rem;
+        padding: 1rem 0rem 1rem 0rem;
+    }
 }
 
 @media screen and (min-width: 375px){
 
     .vacation {
+        display:flex;
+        flex-flow: column;
         margin-top: 2rem;
         margin-left: -0.7rem;
         margin-right: -0.2rem;
         background-size: 23.5rem;
         background-repeat: no-repeat;
-    }
-
-    .vacation {
-        display:flex;
-        flex-flow: column;
     }
 
     .about {
@@ -758,9 +832,33 @@ select {
     .say-box {
         margin-top: -15rem;
         margin-bottom: -5rem;
-        margin-left: 9rem;
+        margin-left: 6rem;
         margin-right: -7rem;
     }
+
+    .side-images img {
+        width: 15rem;
+
+    }
+
+    .side-pictures img {
+        display: block;
+        width: 7.4rem;
+    }
+
+    .side-by-side h5 {
+        margin-left: 8rem;
+    }
+
+    .side-by-side h3 {
+        margin-left: 5rem;
+    }
+
+    .side-by-side button {
+        margin-left: 8rem;
+    }
+
+
 }
 
 @media screen and (min-width: 425px){
@@ -773,17 +871,11 @@ select {
         background-repeat: no-repeat;
     }
 
-    .vacation {
-        display:flex;
-        flex-flow: column;
-    }
-
     .about {
         display: flex;
         flex-flow: column;
         font-size: 1.8rem;
         color: rgb(200, 242, 242);
-        /* text-shadow: black; */
         margin-top: -1.4rem;
         margin-left: 2rem;
         margin-right: 10rem;
@@ -893,14 +985,40 @@ select {
         width: 26rem;
     }
 
+    .experience button {
+        margin-left: 8rem;
+    }
+
     .say-hello img {
         width: 25.6rem;
     }
 
     .say-box {
         margin-top: -17rem;
-        margin-left: 13rem;
+        margin-left: 9rem;
     }
+
+    .side-images img {
+        width: 16rem;
+
+    }
+
+    .side-pictures img {
+        width: 9.6rem;
+    }
+
+    .side-by-side h5 {
+        margin-left: 9rem;
+    }
+
+    .side-by-side h3 {
+        margin-left: 6rem;
+    }
+
+    .side-by-side button {
+        margin-left: 9rem;
+    }
+
 }
 
 @media screen and (min-width: 768px){
@@ -984,7 +1102,6 @@ select {
 
     .search-room-text {
         font-size: 1.27rem;
-        /* margin-top: 2rem; */
         margin-bottom: 1.4rem;
     }
 
@@ -1095,6 +1212,62 @@ select {
     .cause-name {
         font-size: 1.4rem;
     }
+    
+    .activity a{
+        margin-left: 20rem;
+    }
+    .activity-and-reconnect img {
+        width: 50rem;
+    }
+
+    .experience button {
+        margin-left: 20rem;
+    }
+
+    .say-hello img {
+        width: 47rem;
+    }
+
+    .say-hello p{
+        font-size: 1rem;
+    }
+
+    .say-box {
+        margin-left: 23rem;
+        margin-top: -27rem;
+        opacity: 1;
+        height: 15rem;
+        padding: 2rem 4rem 3rem 3rem;
+    }
+
+    .review, .review-summary {
+        margin-left: 3rem;
+    }
+
+    .getting-text {
+        text-align: center;
+        margin-left: -1rem;
+        font-size: 1rem;
+    }
+
+    .routes h3 {
+        text-align: center;
+        margin-left: -1rem;
+        font-size: 2rem;
+    }
+
+   .route-text {
+        font-size: 1rem;
+   }
+
+   .vehicle img {
+        width: 6rem;
+   }
+
+   .map-image {
+        width: 30rem;
+        margin-left: 9rem;
+   }
 }
 
 @media screen and (min-width: 1024px){
@@ -1326,4 +1499,26 @@ select {
         width: 6rem;
         height: 5rem;
     }
+
+    .activity {
+        padding-top: 8rem;
+    }
+
+    .activity-text {
+        margin-left: -27rem;
+    }
+
+    .activity-paragraph {
+        margin-left: 4rem;
+    }
+
+    .about-activity, .about-reconnect {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .about-activity img {
+        width: 44rem;
+    }
+    
 }
