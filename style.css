@@ -406,9 +406,10 @@ select {
 
     .activity-paragraph {
         margin-top: 1rem;
+        margin-left: 1.5rem;
         font-size: 0.9rem;
         color: rgb(252, 251, 249);
-        text-align: center;
+        /* text-align: center; */
     }
 
     .activity-and-reconnect a {
@@ -436,7 +437,7 @@ select {
         border: 1px solid white;
         background-color: transparent;
         margin-top: 1.6rem;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         margin-bottom: 2rem;
         margin-right: 1rem;
         padding-left: -3rem;
@@ -530,6 +531,7 @@ select {
     .customer-review {
         display: flex;
         flex-flow: column;
+        gap: 1.5rem;
         padding-top: 3rem;
         margin-top: -0.3rem;
         background-color: rgb(243, 243, 177);
@@ -538,6 +540,7 @@ select {
     .customers {
         display: flex;
         flex-flow: column;
+        padding-top: 1rem;
     }
 
     .customer-identity {
@@ -559,10 +562,11 @@ select {
 
     .review-summary, .review {
         margin-left: 1rem;
+        /* margin-top: -0.1rem; */
     }
 
     .review {
-        margin-top: -0.5rem;
+        margin-top: -1rem;
         font-size: 0.8rem;
     }
 
@@ -574,7 +578,7 @@ select {
         margin-top: 2rem;
         margin-left: -0.7rem;
         margin-right: -0.2rem;
-        background-size: 21rem;
+        background-size: 23.5rem;
         background-repeat: no-repeat;
     }
 
@@ -598,19 +602,15 @@ select {
         color:rgb(29, 237, 237);
     }
 
-    .beautiful-hideaway {
-        display: none;
-    }
-
     .two-buttons {
-        margin-top: 1.2rem;
+        margin-top: 2rem;
         margin-left: 4rem;
     }
 
     .search-room {
         margin-top: 0.2rem;
         margin-left: -1rem;
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .check-date {
@@ -622,6 +622,7 @@ select {
 
     .check button {
         margin-left:-0.5rem;
+        margin-right: -24rem;
     }
 
     .tourists {
@@ -673,6 +674,7 @@ select {
     /* skipped */
     .why-text {
         font-size: 1.7rem;
+        margin-left: 1rem;
     }
 
     .particular-cause {
@@ -686,6 +688,34 @@ select {
         margin-right: -7rem;
         font-size: 1rem;
     }
+
+    .activity-and-reconnect img {
+        max-width: 100%;
+        width: 26rem;
+    }
+
+    .activity-paragraph {
+        margin-left: 1.5rem;
+    }
+
+    .activity button {
+        font-size: 1rem;
+    }
+
+    .entertainment-items img {
+        width: 22rem;
+    }
+
+    .say-hello img {
+        width: 22.4rem;
+    }
+
+    .say-box {
+        margin-top: -15rem;
+        margin-bottom: -5rem;
+        margin-left: 9rem;
+        margin-right: -7rem;
+    }
 }
 
 @media screen and (min-width: 425px){
@@ -694,7 +724,7 @@ select {
         margin-top: 2rem;
         margin-left: -0.7rem;
         margin-right: -0.2rem;
-        background-size: 24rem;
+        background-size: 26rem;
         background-repeat: no-repeat;
     }
 
@@ -723,7 +753,7 @@ select {
     }
 
     .two-buttons {
-        margin-top: 4.74rem;
+        margin-top: 6rem;
         margin-left: 6rem;
     }
 
@@ -812,6 +842,19 @@ select {
         margin-left: -4rem;
         margin-right: -7rem;
         font-size: 1rem;
+    }
+
+    .entertainment-items img {
+        width: 26rem;
+    }
+
+    .say-hello img {
+        width: 25.6rem;
+    }
+
+    .say-box {
+        margin-top: -17rem;
+        margin-left: 13rem;
     }
 }
 
