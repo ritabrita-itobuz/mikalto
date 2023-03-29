@@ -886,6 +886,9 @@ select {
         margin-left: 8rem;
     }
 
+    .about-footer p {
+        font-size: 0.1rem;
+    }
 
 }
 
@@ -950,28 +953,26 @@ select {
         margin-left: 9rem;
     }
 
+    .other-items {
+        flex-flow: row;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 768px){
-    .header {
-        margin-left: 2rem;
-    }
-
     .mikalto {
-        font-size: 2rem;
         margin-left: -1.5rem;
     }
     
     .hotel-resort {
-        margin-top: -2.2rem;
-        margin-left: -1rem;
-        font-size: 0.6rem;    
+        margin-left: -1rem;   
     }
 
     .menu-items {
         display: block;
         justify-content: space-around;
-        /* gap: 4rem; */
         left: -5rem;
         margin-left: -0.1rem;
         margin-right: 2rem;
@@ -979,17 +980,13 @@ select {
     }
 
     .vacation {
-        background-image: url("./images/resort.jpeg");
         background-size: 62rem;
-        display: flex;
         flex-flow: row;
         margin-left: -2rem;
         margin-right: 2rem;
     }
     
     .about {
-        display: flex;
-        flex-flow: column;
         font-size: 2rem;
         color: rgb(29, 237, 237);
         margin-top: 2rem;
@@ -1013,11 +1010,6 @@ select {
         font-size: 0.8rem;
     }
     
-    .two-buttons a {
-        text-decoration: none;
-        color: #ffffff;
-    }
-    
     .two-buttons a:hover {
         color:rgb(4, 4, 93);
         background-color: #ffffff;
@@ -1028,33 +1020,10 @@ select {
         margin-left: -4rem;
         margin-right: 5rem;
         border: 1px solid black;
-        font-size: 1.6rem;
-    }
-
-    .search-room-text {
-        font-size: 1.27rem;
-        margin-bottom: 1.4rem;
-    }
-
-    .check-date {
-        display:flex;
-        font-size: 0.8rem;
-        color: rgb(4, 4, 93);
-        gap: 1rem;
     }
 
     .check button {
-        margin-left:-0.5rem;
         margin-bottom: -2rem;
-    }
-
-    .tourists {
-        font-size: 0.8rem;
-    }
-
-    .welcome {
-        display: flex;
-        flex-flow: column;
     }
     
     .welcome-lines {
@@ -1096,7 +1065,6 @@ select {
     }
 
     .welcome-images {
-        position: absolute;
         margin-top: 13rem;
     }
 
@@ -1122,21 +1090,9 @@ select {
     .why-text {
         margin-top: 30rem;
         margin-left: 2rem;
-        font-size: 2rem;
-    }
-
-    .causes {
-        flex-flow: column;
-    }
-
-    .particular-cause {
-        margin-left: -12rem;   
     }
 
     .cause-text {
-        margin-top: 2rem;
-        margin-left: -4rem;
-        margin-right: -7rem;
         font-size: 1.2rem;
     }
 
@@ -1198,6 +1154,11 @@ select {
    .map-image {
         width: 30rem;
         margin-left: 9rem;
+   }
+
+   .other-items {
+    margin-left: 8rem;
+    gap: 4rem;
    }
 }
 
