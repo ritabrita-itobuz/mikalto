@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Mikalto</title>
@@ -29,9 +30,9 @@
     <!-- Enjoy your dream vacation -->
     <section class="vacation" id="vacation">
         <div class="about">
-            <p class="enjoy-text">Enjoy your</p>
-            <p class="vacation-text">dream vacation</p>
-            <p class="beautiful-hideaway">Quiet and endlessly beautiful hideaway</p>
+            <p class="enjoy-text" id="enjoy-text">Enjoy your</p>
+            <p class="vacation-text" id="vacation-text">dream vacation</p>
+            <p class="beautiful-hideaway" id="beautiful-hideaway">Quiet and endlessly beautiful hideaway</p>
             <div class="two-buttons">
                 <a href="#" target="_blank" class="">About Us</a>
                 <a href="#" target="_blank" class="view-button">View HomeStay</a>
@@ -94,6 +95,42 @@
             <img src="./images/welcome/man-cooking.jpeg" alt="man cooking" class="man-cooking">
             <img src="./images/welcome/curtain.jpeg" alt="curtain" class="window-view">
             <img src="./images/welcome/hotel-view.jpeg" alt="hotel view" class="hotel-view">
+        </div>
+    </section>
+
+    <!-- Standard room -->
+    <section class="standard">
+        <div class="room-data">
+            <p class="elegance">ELEGANCE AND COMFORT</p>
+            <p class="standard-room">Standart Room</p>
+            <p class="rate">From: <span id="rate-per-night" style="font-weight: bold">$150</span>/night</p>
+            <p class="room-summary">With wide and comfortable areas and daylight pouring in from the...</p>
+            <div class="room-description">
+                <div class="room-items" style="font-weight: bold;">
+                    <p>Bed:</p>
+                    <p>Capacity:</p>
+                    <p>Room size:</p>
+                    <p>View:</p>
+                </div>
+                <div class="room-items">
+                    <p>Queen Size bed</p>
+                    <p>2 adults, 1 children</p>
+                    <p>55 sqm</p>
+                    <p>garden view</p>
+                </div>
+            </div>
+        </div>
+        <div class="room-image-carousel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
         </div>
     </section>
 
@@ -383,7 +420,19 @@
         </div>
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./JS/script.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>

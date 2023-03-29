@@ -1,11 +1,30 @@
 body {
     font-family: 'Lora', serif;
     overflow-x: hidden;
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 10%;
+    /* object-fit: cover; */
 }
 
 .header {
-    display: flex;
-    margin-left: 2rem;
     color: rgb(4, 4, 93);
 }
 
@@ -165,25 +184,6 @@ select {
     width: 10rem;
 }
 
-.man-cooking {
-    margin-top: 5rem;
-    margin-left: -40rem;
-    width: 15rem;
-}
-
-.window-view {
-    margin-bottom: 3rem;
-    margin-left: -2.2rem;
-    width: 20rem;
-}
-
-.hotel-view {
-    margin-left: -27rem;
-    margin-bottom: -6rem;
-    width: 20rem;
-}
-
-/* skipped */
 .why-text {
     margin-top: 4rem;
     margin-left: 14rem;
@@ -261,7 +261,7 @@ select {
     }
 
     .two-buttons {
-        margin-top: -0.6rem;
+        margin-top: -1rem;
         margin-bottom: 2rem;
         margin-left: 6rem;
     }
@@ -315,7 +315,7 @@ select {
 
     .welcome-images {
         position: absolute;
-        top:1rem;
+        top:6rem;
     }
 
     .man-cooking {
@@ -357,10 +357,56 @@ select {
         margin-top: 6rem;
     }
 
-    /* skipped */
+    .standard {
+        display: flex;
+        flex-flow: column;
+        background-color: rgb(5, 5, 104);
+        margin-top: 13rem;
+    }
+
+    .elegance {
+        color: goldenrod;
+        font-size: 0.7rem;
+        text-align: center;
+        
+    }
+
+    .standard-room {
+        color: #ffffff;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-top: -1rem;
+    }
+
+    .rate {
+        color: #ffffff;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    .room-summary {
+        color: #ffffff;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .room-description {
+        display: flex;
+        flex-flow: row;
+        padding-left: 1rem;
+        gap: 2.5rem;
+    }
+
+    .room-items {
+        display: flex;
+        flex-flow: column;
+        color: #ffffff;
+    }
+
     .why-text {
-        margin-top: 15rem;
-        margin-left: -0.1rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
         font-size: 2rem;
     }
 
@@ -783,7 +829,7 @@ select {
     }
 
     .two-buttons {
-        margin-top: 2rem;
+        margin-top: 4rem;
         margin-left: 4rem;
     }
 
@@ -1070,12 +1116,13 @@ select {
 
     .man-cooking {
         margin-left: 3rem;
+        margin-bottom: 7rem;
         width: 10rem;
     }
 
     .window-view {
-        margin-bottom: 1rem;
-        margin-left: -0.1rem;
+        margin-bottom: 10rem;
+        margin-left: 0.3rem;
         width: 10rem;
         height: 12rem;
     }
@@ -1086,9 +1133,13 @@ select {
         margin-bottom: 11rem;
         width: 20rem;
     }
-    /* skipped */
+
+    .standard {
+        margin-top: 27rem;
+    }
+
     .why-text {
-        margin-top: 30rem;
+        margin-top: 2rem;
         margin-left: 2rem;
     }
 
@@ -1156,10 +1207,27 @@ select {
         margin-left: 9rem;
    }
 
-   .other-items {
-    margin-left: 8rem;
-    gap: 4rem;
+   .side-by-side h5{
+        margin-top: -9rem;
+        margin-left: 33rem;
    }
+
+   .side-by-side h3 {
+        margin-left: 30rem;
+   }
+
+   .side-by-side p {
+        margin-left: 27rem;
+   }
+
+   .side-by-side button {
+        margin-left: 33rem;
+    }
+
+   .other-items {
+        margin-left: 8rem;
+        gap: 4rem;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -1213,6 +1281,10 @@ select {
     .vacation-text {
         margin-top: -2.3rem;
         color:rgb(18, 18, 19);
+    }
+
+    .enjoy-text, .vacation-text {
+        color: #ffffff;
     }
     
     .beautiful-hideaway {
@@ -1468,4 +1540,72 @@ select {
         margin-left: 8rem;
     }
     
+}
+
+@media screen and (min-width: 1440px){
+    .welcome-images
+    {
+        margin-left: -4rem;
+    }
+
+    .sign-image {
+        margin-top: -18rem;
+    }
+
+    .manager {
+        margin-bottom: 17rem;
+    }
+
+    .standard {
+        /* flex-flow: row; */
+    }
+
+    .elegance {
+        font-size: 2rem;
+    }
+
+    .standard-room {
+        font-size: 3rem;
+    }
+
+    .rate {
+        margin-left: 36rem;
+        font-size: 2rem;
+    }
+
+    .room-summary {
+        margin-left: 7rem;
+        font-size: 1.6rem;
+    }
+
+    .room-description {
+        margin-left: 33rem;
+        font-size: 1.7rem;
+    }
+
+    .swiper-slide img {
+        width: 0.3rem;
+        /* height: 25% */
+    }
+
+    .why-text {
+        margin-top: 1rem;
+    }
+
+    .smile-text {
+        margin-left: -3rem;
+    }
+
+    .activity-paragraph {
+        margin-left: 1rem;
+    }
+
+    .about-reconnect button {
+        padding-left: -5rem;
+        padding-right: 1rem;
+    }
+
+    .side-by-side {
+        flex-flow: row;
+    }
 }
