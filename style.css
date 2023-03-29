@@ -443,6 +443,10 @@ select {
         font-size: 0.6rem;
     }
 
+    .reconnect {
+        padding-top: -1rem;
+    }
+
     .matters {
         font-size: 0.7rem;
         color:rgb(4, 4, 93);
@@ -515,7 +519,6 @@ select {
         border: 1px solid black;
 
     }
-
 
     .say-box button {
         margin-bottom: 0.2rem;
@@ -671,6 +674,11 @@ select {
         text-align: center;
     }
 
+    .inbox p {
+        font-size: 0.4rem;
+        text-align: center;
+    }
+
     .mail-input {
         display: flex;
         flex-flow: column;
@@ -691,6 +699,74 @@ select {
         color: #ffffff;
         margin: 1rem 3rem 2rem 3rem;
         padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: column;
+        background-color: rgb(5, 5, 104);
+        color: #ffffff;
+        margin-top: 0.7rem;
+    }
+
+    .footer-name, .sub-header, .footer-description, .follow, .about-footer {
+        text-align: center;
+    }
+
+    .sub-header {
+        margin-top: -1rem;
+    }
+
+    .footer-description {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 0.6rem;
+    }
+
+    .follow {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .icons {
+        display: flex;
+    }
+
+    .other-items{
+        display: flex;
+        flex-flow: column;
+        margin-top: 0.3rem;
+        gap: 0.6rem;
+    }
+
+    .about-footer {
+        justify-content: space-between;
+        margin-top: -1.7rem;
+    }
+
+    .about-footer a {
+        margin-top: -3rem;
+        color: grey;
+        font-size: 0.6rem;
+        text-decoration: none;
+        margin-bottom: 1rem;
+    }
+
+    .about-footer a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+
+    .about-footer p {
+        font-size: 0.3rem;
+    } 
+
+    .about-footer h6 {
+        margin-bottom: 0.3rem;
+    }
+
+    .contact-us {
+        color: #ffffff;
     }
 }
 
