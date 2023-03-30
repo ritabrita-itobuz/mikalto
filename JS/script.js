@@ -13,7 +13,6 @@ const data = async function (){
       const secondroom = document.getElementById("second-room");
       const thirdroom = document.getElementById("third-room");
       const fourthroom = document.getElementById("fourth-room");
-      // const rate = document.getElementById("rate-per-night");
 
       enjoy.innerHTML= data.enjoy;
       vacation.innerHTML= data.vacation;
@@ -25,11 +24,9 @@ const data = async function (){
       secondroom.src= data.doubleRoomPicture;
       thirdroom.src= data.thirdRoomPicture;
       fourthroom.src= data.fourthRoomPicture;
-      // rate.innerHTML= data.hideaway;
       
     }
-);
-       
+);       
 }
 
 data();
