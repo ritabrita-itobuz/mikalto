@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: 'Lora', serif;
     overflow-x: hidden;
     position: relative;
@@ -223,7 +223,7 @@ select {
     }
     
     .hotel-resort {
-        margin-top: -2.2rem;
+        margin-top: 0.6rem;
         margin-left: 0.2rem;
         font-size: 0.6rem;    
     }
@@ -250,6 +250,10 @@ select {
         margin-top: -1.4rem;
         margin-left: 2rem;
         margin-right: 10rem;
+    }
+
+    .enjoy-text {
+        margin-top: 1rem;
     }
 
     .vacation-text {
@@ -402,6 +406,10 @@ select {
         display: flex;
         flex-flow: column;
         color: #ffffff;
+    }
+
+    #first-room, #second-room, #third-room {
+        height: 21rem;
     }
 
     .why-text {

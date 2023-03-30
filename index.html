@@ -6,24 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Mikalto</title>
 </head>
 <body>
-    <section class="header">
-        <div>
-            <p class="mikalto">MIKALTO</p>
-            <p class="hotel-resort">HOTELS AND RESORTS</p>
-        </div>
-        <div class="menu-items" style="color: rgb(4, 4, 93);">
-            <a href="#" target="_blank">Home</a>
-            <a href="#" target="_blank">Our Rooms</a>
-            <a href="#" target="_blank">Page</a>
-            <a href="#" target="_blank">Features</a>
-            <a href="#" target="_blank">Blog</a>
-            <a href="#" target="_blank">Contact</a>
+    <!-- Header -->
+    <section>
+        <div class="header navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <p class="mikalto">MIKALTO</p>
+                    <p class="hotel-resort">HOTELS AND RESORTS</p>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-items">
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Our Rooms</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Page</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
         </div>
     </section>
         
@@ -113,7 +147,7 @@
                     <p>View:</p>
                 </div>
                 <div class="room-items">
-                    <p>Queen Size bed</p>
+                    <p id="bed-size">Queen Size bed</p>
                     <p>2 adults, 1 children</p>
                     <p>55 sqm</p>
                     <p>garden view</p>
@@ -121,12 +155,12 @@
             </div>
         </div>
         <div class="room-image-carousel">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper" id="carousel">
                 <div class="swiper-wrapper">
                   <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
-                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
-                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
-                  <img class="swiper-slide" src="./images/resort.jpeg" alt="first-room" id="first-room"></img>
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="second-room" id="second-room"></img>
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="third-room" id="third-room"></img>
+                  <img class="swiper-slide" src="./images/resort.jpeg" alt="fourth-room" id="fourth-room"></img>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -199,8 +233,8 @@
         <div class="entertainment">
             <div class="entertainment-items first-item">
                 <img src="./images/experience/spa.jpeg" alt="spa">
-                <p class="entertainment-name">WELLNESS</p>
-                <h4>Dedicated to wellness</h4>
+                <p class="entertainment-name" id="wellness">WELLNESS</p>
+                <h4 id="wellness-subheading">Dedicated to wellness</h4>
                 <p class="entertainment-description">Aman's approach to wellness is focused on
                     personalisation, privacy and seclusion. Local spa
                     rituals with indigenous ingredients, offer a
@@ -420,8 +454,9 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./JS/script.js"></script>
 
