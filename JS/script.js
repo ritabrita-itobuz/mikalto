@@ -14,16 +14,16 @@ const data = async function (){
       const thirdroom = document.getElementById("third-room");
       const fourthroom = document.getElementById("fourth-room");
 
-      enjoy.innerHTML= data.enjoy;
-      vacation.innerHTML= data.vacation;
-      background.style.backgroundImage= `url(${data.image})`;
-      hideaway.innerHTML= data.hideaway;
-      wellness.innerHTML= data.wellness;
-      wellnesskey.innerHTML= data.wellnesskey;
-      firstroom.src= data.singleRoomPicture;
-      secondroom.src= data.doubleRoomPicture;
-      thirdroom.src= data.thirdRoomPicture;
-      fourthroom.src= data.fourthRoomPicture;
+      enjoy.innerHTML = data.enjoy;
+      vacation.innerHTML = data.vacation;
+      background.style.backgroundImage = `url(${data.image})`;
+      hideaway.innerHTML = data.hideaway;
+      wellness.innerHTML = data.wellness;
+      wellnesskey.innerHTML = data.wellnesskey;
+      firstroom.src = data.singleRoomPicture;
+      secondroom.src = data.doubleRoomPicture;
+      thirdroom.src = data.thirdRoomPicture;
+      fourthroom.src = data.fourthRoomPicture;
       
     }
 );       
