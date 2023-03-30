@@ -380,6 +380,10 @@ select {
         margin-left: -12rem;   
     }
 
+    .particular-cause img {
+        margin-top: -1rem;
+    }
+
     .cause-text {
         margin-top: 2rem;
         margin-left: -4rem;
@@ -486,7 +490,7 @@ select {
 
     .entertainment-description {
         font-size: 0.8rem;
-        margin-top: -1rem;
+        margin-top: 0.4rem;
         margin-left: -0.1rem;
     }
 
@@ -498,6 +502,7 @@ select {
 
     .entertainment-items {
         margin-top: 2.5rem;
+        margin-left: 1rem;
     }
 
     .experience button {
@@ -532,6 +537,10 @@ select {
         color: rgb(5, 5, 104);
     }
 
+    .say-hello-description {
+        font-size: 0.8rem;
+    }
+
     .whole-new-you {
         margin-top: -1rem;
     }
@@ -540,7 +549,7 @@ select {
         display: flex;
         flex-flow: column;
         gap: 1.5rem;
-        padding-top: 3rem;
+        padding-top: 0.5rem;
         margin-top: -0.3rem;
         background-color: rgb(243, 243, 177);
     }
@@ -573,7 +582,7 @@ select {
     }
 
     .review {
-        margin-top: -1rem;
+        margin-top: 0.06rem;
         font-size: 0.8rem;
     }
 
@@ -590,11 +599,11 @@ select {
 
     .routes h3{
         margin-top: -0.2rem;
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
 
     .route-text {
-        margin-left: 1rem;
+        margin-left: 0.4rem;
         margin-right: -0.5rem;
         font-size: 0.8rem;
     }
@@ -604,13 +613,13 @@ select {
     }
 
     .vehicle img {
-        width:3rem;
+        width:3.5rem;
         height: 4rem;
         margin-top: 0.5rem;
     }
 
     .vehicle p {
-        margin-top: -1rem;
+        margin-top: 0.5rem;
         font-size: 0.7rem;
     }
 
@@ -628,16 +637,17 @@ select {
 
     .side-by-side {
         background-color: rgb(247, 216, 175);
+        margin-top: -0.9rem;
     }
 
     .side-by-side h5 {
-        margin-left: 6rem;
+        margin-left: 5rem;
         color:rgb(5, 5, 104);
     }
 
-    .side-by-side h3 {
-        margin-top: -1rem;
-        margin-left: 3rem;
+    .side-by-side h4 {
+        margin-top: 1rem;
+        margin-left: 2rem;
         color:rgb(13, 13, 14);
     }
 
@@ -664,7 +674,7 @@ select {
     }
 
     .side-images img {
-        width:19rem;
+        width:21rem;
     }
 
     .side-pictures img {
@@ -674,6 +684,7 @@ select {
     .inbox h5 {
         text-align: center;
         color: rgb(5, 5, 104);
+        font-size: 0.8rem;
     }
 
     .inbox h3 {
@@ -741,7 +752,7 @@ select {
     .other-items{
         display: flex;
         flex-flow: column;
-        margin-top: 0.3rem;
+        margin-top: 3rem;
         gap: 0.6rem;
     }
 
@@ -779,11 +790,15 @@ select {
 @media screen and (min-width: 375px){
 
     .vacation {
-        background-size: 23.5rem;
+        background-size: 24rem;
     }
 
     .about {
         color: rgb(244, 245, 248);
+    }
+
+    .enjoy-text {
+        margin-top: 2.3rem;
     }
 
     .vacation-text {
@@ -804,6 +819,7 @@ select {
     }
 
     .mikalto-text {
+        margin-top: -0.8rem;
         font-size: 1.8rem;
     }
 
@@ -816,8 +832,8 @@ select {
     }
 
     .hotel-view {
-        margin-left: 2rem;
-        margin-top: -3.7rem;
+        margin-left: 2.8rem;
+        margin-top: -4.9rem;
         margin-bottom: 11rem;
         width: 12rem;
     }
@@ -831,10 +847,13 @@ select {
     }
 
     .sign-image {
-        top: 11rem;
+        top: 12rem;
     }
 
-    /* skipped */
+    .rate {
+        margin-left: 6.5rem;
+    }
+
     .why-text {
         font-size: 1.7rem;
         margin-left: 1rem;
@@ -879,15 +898,15 @@ select {
 
     .side-pictures img {
         display: block;
-        width: 7.4rem;
+        width: 8.5rem;
     }
 
     .side-by-side h5 {
-        margin-left: 8rem;
+        margin-left: 6rem;
     }
 
-    .side-by-side h3 {
-        margin-left: 5rem;
+    .side-by-side h4 {
+        margin-left: 3rem;
     }
 
     .side-by-side button {
@@ -903,11 +922,16 @@ select {
 @media screen and (min-width: 425px){
 
     .vacation {
-        background-size: 26rem;
+        background-size: 27rem;
     }
 
     .two-buttons {
         margin-top: 6rem;
+    }
+
+    .check button {
+        margin-left: 1.4rem;
+        padding-left: 8rem;
     }
 
     .words-of-manager {
@@ -921,6 +945,10 @@ select {
 
     .sign-image {
         margin-top: -0.7rem;
+    }
+
+    .rate {
+        margin-left: 8rem;
     }
 
     .entertainment-items img {
@@ -946,7 +974,7 @@ select {
     }
 
     .side-pictures img {
-        width: 9.6rem;
+        width: 11.4rem;
     }
 
     .side-by-side h5 {
@@ -988,10 +1016,9 @@ select {
     }
 
     .vacation {
-        background-size: 62rem;
+        background-size: 66rem;
         flex-flow: row;
         margin-left: -2rem;
-        margin-right: 2rem;
     }
     
     .about {
@@ -1002,7 +1029,7 @@ select {
     }
 
     .enjoy-text {
-        color:rgb(4, 43, 43)
+        color:rgb(250, 253, 253)
     }
 
     .beautiful-hideaway {
@@ -1032,13 +1059,13 @@ select {
 
     .check button {
         margin-bottom: -2rem;
+        margin-right: 1rem;
     }
     
     .welcome-lines {
         display:flex;
         flex-flow: column;
         margin-top: -0.1rem;
-        margin-left: -0.2rem;
     }
     
     .welcome-text {
@@ -1084,7 +1111,7 @@ select {
 
     .window-view {
         margin-bottom: 10rem;
-        margin-left: 0.3rem;
+        margin-left: 0.6rem;
         width: 10rem;
         height: 12rem;
     }
@@ -1098,6 +1125,18 @@ select {
 
     .standard {
         margin-top: 27rem;
+    }
+
+    .rate {
+        margin-left: 19.5rem;
+    }
+
+    .room-summary {
+        margin-left: -8rem;
+    }
+
+    .room-description {
+        margin-left: 17rem;
     }
 
     .why-text {
@@ -1170,12 +1209,12 @@ select {
    }
 
    .side-by-side h5{
-        margin-top: -9rem;
+        margin-top: -10rem;
         margin-left: 33rem;
    }
 
-   .side-by-side h3 {
-        margin-left: 30rem;
+   .side-by-side h4 {
+        margin-left: 29rem;
    }
 
    .side-by-side p {
@@ -1205,8 +1244,8 @@ select {
     }
     
     .hotel-resort {
-        margin-top: -2.2rem;
-        margin-left: 1rem;
+        margin-top: 0.3rem;
+        margin-left: 1.7rem;
         font-size: 0.6rem;    
     }
     
@@ -1215,7 +1254,7 @@ select {
         justify-content: space-around;
         gap: 1.4rem;
         margin-top: 2.4rem;
-        margin-left: 20rem;
+        margin-left: 12rem;
     
     }
     
@@ -1229,7 +1268,7 @@ select {
         display: flex;
         margin-left: 2rem;
         margin-right: 2rem;
-        background-size: 100rem;
+        background-size: 125rem;
     }
     
     .about {
@@ -1241,7 +1280,7 @@ select {
         margin-left: 7.8rem;
     }
     .vacation-text {
-        margin-top: -2.3rem;
+        margin-top: -1rem;
         color:rgb(18, 18, 19);
     }
 
@@ -1276,7 +1315,7 @@ select {
     
     .search-room {
         margin-top: 4rem;
-        margin-left: 20rem;
+        margin-left: 2rem;
         margin-right: 7rem;
         margin-bottom: 4rem;
         padding: 1rem 4rem 2.5rem 2rem;
@@ -1338,7 +1377,7 @@ select {
         display:flex;
         flex-flow: column;
         margin-top: 8rem;
-        margin-left: 14rem;
+        margin-left: 4rem;
     }
     
     .welcome-text {
@@ -1357,7 +1396,7 @@ select {
 
     .welcome-passage-and-manager {
         margin-top: -13rem;
-        margin-right: 50rem;
+        margin-right: 40rem;
         font-size: 1rem;
     }
 
@@ -1366,42 +1405,50 @@ select {
     }
     
     .sign-image {
-        margin-top: -20rem;
+        margin-top: -17rem;
         max-width: 100%;
         width: 10rem;
     }
 
     .man-cooking {
         margin-top: -10rem;
-        margin-left: 55rem;
+        margin-left: 31.5rem;
         width: 15rem;
     }
     
     .window-view {
-        margin-top: -17rem;
+        margin-top: -33rem;
         margin-bottom: 6rem;
-        margin-left: 67rem;
+        margin-left: 43rem;
         width: 20rem;
     }
     
     .hotel-view {
+        margin-top: -21rem;
         margin-left: -27rem;
         margin-bottom: -6rem;
         width: 20rem;
     }
     
-    /* skipped */
+    .rate {
+        margin-left: 27rem;
+    }
+
+    .room-description {
+        margin-left: 24rem;
+    }
+
     .why-text {
-        margin-top: 20rem;
-        margin-left: 14rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
         font-size: 2rem;
     }
     
     .causes {
         display: flex;
         flex-flow: row;
-        margin-left: 25rem;
-        gap: 4rem;
+        margin-left: 14rem;
+        gap: 5rem;
     }
 
     .cause-text {
@@ -1431,16 +1478,21 @@ select {
     }
 
     .activity-text {
-        margin-left: -27rem;
+        margin-left: 1rem;
     }
 
     .activity-paragraph {
-        margin-left: 4rem;
+        margin-left: 2rem;
+        font-size: 1rem;
     }
 
     .about-activity, .about-reconnect {
         display: flex;
         flex-flow: row;
+    }
+
+    .activity a {
+        margin-left: 2rem;
     }
 
     .about-activity img {
@@ -1455,15 +1507,16 @@ select {
     }
 
     .experience button {
-        margin-left: 40rem;
+        margin-left: 26rem;
         margin-right: 12rem;
     }
 
     .entertainment {
         flex-flow: row;
-        padding-left: 2rem;
+        padding-left: 0.1rem;
         padding-right: 2rem;
         gap: 1rem;
+        overflow-x: scroll;
     }
 
     .entertainment-items img {
@@ -1478,12 +1531,16 @@ select {
     .say-hello img {
         max-width: 100%;
         width: 100rem;
-        height: 30rem;
+        height: 50rem;
     }
 
     .say-box {
-        margin-left: 50rem;
+        margin-top: -34rem;
+        margin-left: 30rem;
         margin-right: 4rem;
+        margin-bottom: 8rem;
+        width: 25rem;
+        height: 20rem;
     }
 
     .customer-review {
@@ -1495,11 +1552,40 @@ select {
     }
 
     .map-image {
+        margin-top: 11rem;
         margin-right: 6rem;
+        width: 40%;
+        height: 10%;
     }
 
     .routes {
         margin-left: 8rem;
+    }
+
+    .side-by-side h5 {
+        margin-left: 40rem;
+    }
+
+    .side-by-side h4 {
+        margin-left: 36rem;
+    }
+
+    .side-by-side button {
+        margin-left: 41rem;
+    }
+
+    .mail-input {
+        flex-flow: row;
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+
+    .write-email {
+        margin-left: 2rem;
+    }
+
+    .other-items {
+        margin-left: 14rem;
     }
     
 }
@@ -1507,20 +1593,17 @@ select {
 @media screen and (min-width: 1440px){
     .welcome-images
     {
-        margin-left: -4rem;
+        margin-left: 24rem;
     }
 
     .sign-image {
-        margin-top: -18rem;
+        margin-top: -21rem;
     }
 
     .manager {
-        margin-bottom: 17rem;
+        margin-bottom: 1rem;
     }
 
-    .standard {
-        /* flex-flow: row; */
-    }
 
     .elegance {
         font-size: 2rem;
@@ -1547,7 +1630,6 @@ select {
 
     .swiper-slide img {
         width: 0.3rem;
-        /* height: 25% */
     }
 
     .why-text {
@@ -1567,7 +1649,33 @@ select {
         padding-right: 1rem;
     }
 
-    .side-by-side {
+    .map-image {
+        margin-top: 1rem;
+    }
+
+    .side-by-side h5 {
+        margin-left: 54rem;
+    }
+
+    .side-by-side h4 {
+        margin-left: 51rem;
+    }
+
+    .side-by-side button {
+        margin-left: 55rem;
+    }
+
+    .mail-input {
         flex-flow: row;
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+
+    .write-email {
+        margin-left: 2rem;
+    }
+
+    .other-items {
+        margin-left: 26rem;
     }
 }
