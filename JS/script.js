@@ -12,6 +12,7 @@ const data = async function (){
       const firstroom = document.getElementById("first-room");
       const secondroom = document.getElementById("second-room");
       const thirdroom = document.getElementById("third-room");
+      const fourthroom = document.getElementById("fourth-room");
       // const rate = document.getElementById("rate-per-night");
 
       enjoy.innerHTML= data.enjoy;
@@ -23,6 +24,7 @@ const data = async function (){
       firstroom.src= data.singleRoomPicture;
       secondroom.src= data.doubleRoomPicture;
       thirdroom.src= data.thirdRoomPicture;
+      fourthroom.src= data.fourthRoomPicture;
       // rate.innerHTML= data.hideaway;
       
     }
