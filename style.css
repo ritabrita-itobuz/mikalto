@@ -1649,6 +1649,10 @@ select {
         padding-right: 1rem;
     }
 
+    .experience button {
+        margin-left: 40rem;
+    }
+
     .map-image {
         margin-top: 1rem;
     }
