@@ -1694,6 +1694,11 @@ select {
         max-height: 100%;
     }
 
+    .why-to-choose {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+    }
+
     .why-text {
         margin-top: 1rem;
         margin-left: 14rem;
@@ -1701,6 +1706,19 @@ select {
 
     .smile-text {
         margin-left: -3rem;
+    }
+
+    .causes {
+        margin-top: 3rem;
+        margin-left: 25rem;
+    }
+
+    .cause-text {
+        margin-top: -0.5rem;
+    }
+
+    .particular-cause p{
+        font-size: 0.8rem;
     }
 
     .activity-paragraph {
@@ -1712,14 +1730,20 @@ select {
         padding-right: 1rem;
     }
 
+    .experience {
+        margin-top: 5rem;
+    }
+
     .experience h3 {
         font-size: 2rem;
+        margin-top: -1rem;
         margin-left: 20rem;
         margin-right: 20rem;
     }
 
     .experience button {
         margin-left: 40rem;
+        margin-bottom: 3rem;
     }
 
     .say-box {
@@ -1853,10 +1877,6 @@ select {
 
     .write-email {
         margin-left: 2rem;
-    }
-
-    .mikalto-footer {
-        /* margin-left: -4rem; */
     }
 
     .footer {
