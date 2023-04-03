@@ -1855,6 +1855,10 @@ select {
         margin-left: 2rem;
     }
 
+    .mikalto-footer {
+        /* margin-left: -4rem; */
+    }
+
     .footer {
         flex-flow: row;
     }
@@ -1868,12 +1872,13 @@ select {
     }
 
     .footer-description {
-        margin-right: 4rem;
+        /* margin-right: 20rem; */
+        margin-left: 10rem;
     }
 
     .other-items {
         margin-left: -1rem;
-        margin-right: 5rem;
+        margin-right: 15rem;
     }
 
 }
