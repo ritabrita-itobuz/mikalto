@@ -1733,10 +1733,27 @@ select {
 
     .particular-cause p{
         font-size: 0.8rem;
+        margin-right: 5rem;
+    }
+
+    .activity-text {
+        margin-left: -30rem;
     }
 
     .activity-paragraph {
-        margin-left: 1rem;
+        margin-left: 3.5rem;
+    }
+
+    .activity a {
+        margin-left: 3.7rem;
+    }
+
+    .reconnect-text {
+        margin-left: -6rem;
+    }
+
+    .reconnect-paragraph {
+        margin-left: 2rem;
     }
 
     .about-reconnect button {
@@ -1907,7 +1924,7 @@ select {
 
     .footer-description {
         margin-right: 12rem;
-        margin-left: 18rem;
+        margin-left: 17.8rem;
     }
 
     .other-items {
