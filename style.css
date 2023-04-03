@@ -21,7 +21,7 @@ html, body {
 .swiper-slide img {
     display: block;
     max-width: 10%;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 .header {
@@ -187,7 +187,6 @@ select {
     .vacation {
         display:flex;
         flex-flow: column;
-        margin-top: 2rem;
         margin-left: -0.7rem;
         margin-right: -0.2rem;
         background-size: 22rem;
@@ -352,7 +351,7 @@ select {
     .room-description {
         display: flex;
         flex-flow: row;
-        padding-left: 1rem;
+        /* padding-left: 1rem; */
         gap: 2.5rem;
     }
 
@@ -1592,49 +1591,112 @@ select {
 }
 
 @media screen and (min-width: 1440px){
+
+    .hotel-resort {
+        margin-top: -1.3rem;
+    }
+
+    .menu-items {
+        margin-top: -0.6rem;
+    }
+
+    .vacation {
+        margin-top: -1.4rem;
+    }
+
+    .enjoy-text, .vacation-text {
+        font-size: 3rem;
+    }
+
+    .vacation-text {
+        margin-top: -2rem;
+    }
+
+    .search-room {
+        margin-left: 13rem;
+        width: 22rem; 
+    }
+
+    .check-date {
+        gap: 1rem;
+    }
+
+    .check button{
+        margin-left: -1rem;
+        font-size: 1rem;
+        padding-left: -2rem;
+    }
+
+    .dropdown-toggle {
+        margin-left: 20rem;
+    }
+
+    .welcome-lines {
+        margin-left: 16rem;
+    }
+
     .welcome-images
     {
         margin-left: 24rem;
     }
 
     .sign-image {
-        margin-top: -21rem;
+        margin-top: -20rem;
     }
 
     .manager {
         margin-bottom: 1rem;
     }
 
+    .standard {
+        flex-flow: row;
+        height: 30rem;
+    }
 
     .elegance {
-        font-size: 2rem;
+        font-size: 0.8rem;
+        margin-top: 5rem;
+        margin-left: -7rem;
     }
 
     .standard-room {
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-left: -3rem;
+    }
+
+    .rate, .room-summary, .room-description {
+        font-size: 0.9rem;
     }
 
     .rate {
-        margin-left: 36rem;
-        font-size: 2rem;
+        margin-left: 3.5rem;
     }
 
     .room-summary {
-        margin-left: 7rem;
-        font-size: 1.6rem;
+        margin-left: 2rem;
     }
 
-    .room-description {
-        margin-left: 33rem;
-        font-size: 1.7rem;
+    .room-items {
+        margin-left: -20rem;
     }
 
-    .swiper-slide img {
-        width: 0.3rem;
+    .room-info {
+        margin-left: 5rem;
+    }
+
+
+    .room-image-carousel {
+        margin-left: 9rem;
+    }
+    
+    .swiper-wrapper img {
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .why-text {
         margin-top: 1rem;
+        margin-left: 14rem;
     }
 
     .smile-text {
@@ -1650,37 +1712,168 @@ select {
         padding-right: 1rem;
     }
 
+    .experience h3 {
+        font-size: 2rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
     .experience button {
         margin-left: 40rem;
     }
 
+    .say-box {
+        margin-top: -25rem;
+        margin-left: 50rem;
+    }
+
+    .say-hello img {
+        height: 32rem;
+    }
+
+    .whole-new-you {
+        margin-top: -0.5rem;
+        font-size: 1.8rem;
+    }
+
+    .say-box button{
+        font-size: 0.7rem;
+        border: none;
+    }
+
+    .customers {
+        padding-top: 3rem;
+        padding-left: 9rem;
+        padding-right: 7rem;
+        padding-bottom: 4rem;
+    }
+
+    .customer-identity img {
+        width: 2rem;
+        height: 2rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .customer-identity h4 {
+        font-size: 0.8rem;
+    }
+
+    .customer-identity p {
+        margin-top: 0.2rem;
+    }
+
+    .review-summary, .review {
+        font-size: 0.9rem;
+    }
+
+    .recommended  {
+        margin-left: -15rem;
+    }
+
+    .getting-there {
+        margin-bottom: 6rem;
+    }
+
+    .getting-text {
+        margin-top: 10rem;
+        font-size: 0.7rem;
+        margin-left: -19rem;
+    }
+
+    .routes h3 {
+        margin-left: -8rem;
+    }
+
+    .route-text, .vehicle {
+        margin-left: 3.5rem;
+    }
+
+    .routes a {
+        margin-left: 3rem;
+        height: 12rem;
+    }
+
     .map-image {
-        margin-top: 1rem;
+        margin-top: 6rem;
     }
 
     .side-by-side h5 {
-        margin-left: 54rem;
+        font-size: 0.6rem;
+        margin-top: -20rem;
+        margin-left: 65rem;
+        margin-bottom: 4rem;
     }
 
     .side-by-side h4 {
-        margin-left: 51rem;
+        margin-left: 60rem;
+        margin-top: -3rem;
+    }
+
+    .side-by-side p {
+        margin-left: 57rem;
+        margin-right: 10rem;
     }
 
     .side-by-side button {
-        margin-left: 55rem;
+        margin-left: 65rem;
+        margin-bottom: 12rem;
     }
+
+    .side-images img {
+        width: 35rem;
+    }
+
+    .side-pictures {
+        margin-left: 1rem;
+    }
+
+    .side-pictures img {
+        width: 18rem;
+        height: 18rem
+    }
+
+    .second-side-picture {
+        margin-top: 1rem;
+    }
+
+    .inbox {
+        margin-top: 4rem;
+    } 
 
     .mail-input {
         flex-flow: row;
-        margin-left: 14rem;
-        margin-right: 14rem;
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+
+    .mail-input button {
+       margin-left: 20rem;
     }
 
     .write-email {
         margin-left: 2rem;
     }
 
-    .other-items {
-        margin-left: 26rem;
+    .footer {
+        flex-flow: row;
     }
+
+    .footer-name {
+        font-size: 2rem;
+    }
+
+    .sub-footer {
+        font-size: 0.6rem;
+    }
+
+    .footer-description {
+        margin-right: 4rem;
+    }
+
+    .other-items {
+        margin-left: -1rem;
+        margin-right: 5rem;
+    }
+
 }
