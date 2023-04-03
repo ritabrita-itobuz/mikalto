@@ -27,30 +27,30 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-items">
                       <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#" target="_blank">Home</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="#" target="">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#" target="_blank">Our Rooms</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="#" target="">Our Rooms</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#" target="_blank">Page</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="#" target="">Page</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#" target="_blank">Features</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="#" target="">Features</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#" target="_blank">Blog</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="#" target="">Blog</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active text-primary" aria-current="page" href="#" target="_blank">Contact</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="#" target="">Contact</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" target="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           EN
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#" target="_blank">Bengali</a></li>
-                          <li><a class="dropdown-item" href="#" target="_blank">Hindi</a></li>
+                          <li><a class="dropdown-item" href="#" target="">Bengali</a></li>
+                          <li><a class="dropdown-item" href="#" target="">Hindi</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#" target="_blank">Something else here</a></li>
                         </ul>
@@ -78,11 +78,11 @@
             <div class="check-date">
                 <div class="check-in-out">
                     <p>Check-in<sup>*</sup></p>
-                    <input type="date" placeholder="Check-in Date">
+                    <input type="date" placeholder="Check-in Date" name="fromToday">
                 </div>
                 <div class="check-in-out">
                     <p>Check-out<sup>*</sup></p>
-                    <input type="date" placeholder="Check-out Date">
+                    <input type="date" placeholder="Check-out Date" name="afterMarkedDate">
                 </div>
             </div>
             <div class="tourists">
@@ -277,7 +277,7 @@
                 <a href="#" target ="_blank">Discover more --></a>
             </div>
         </div>
-        <button>View all services</button>
+        <button><a href="./viewAllCards.html" target="_blank">View all services</a></button>
     </section>
 
     <!-- Say hello -->
@@ -459,14 +459,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./JS/script.js"></script>
 
-
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      </script>
 </body>
 </html>

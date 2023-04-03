@@ -31,5 +31,18 @@ const data = async function (){
 
 data();
 
+window.onload=function(){
+  let today = new Date().toISOString().split('T')[0];
+  document.getElementsByName("fromToday")[0].setAttribute('min', today);
+  document.getElementsByName("afterMarkedDate")[0].setAttribute('min', today);
+}
+
+const swiper = new Swiper(".mySwiper", {
+navigation: {
+  nextEl: ".swiper-button-next",
+  prevEl: ".swiper-button-prev",
+},
+});
+
 
 

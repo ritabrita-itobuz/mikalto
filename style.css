@@ -158,6 +158,10 @@ select {
     display: flex;
 }
 
+.experience a {
+    text-decoration: none;
+}
+
 .location-image {
     max-width: 100%;
     width: 6rem;
@@ -1631,13 +1635,22 @@ select {
         margin-left: 20rem;
     }
 
+    .welcome-text, .welcome-passage-and-manager, .manager {
+        font-size: 0.8rem;
+    }
+
     .welcome-lines {
         margin-left: 16rem;
+    }
+    
+    .welcome-passage-and-manager {
+        margin-right: 50rem;
     }
 
     .welcome-images
     {
-        margin-left: 24rem;
+        margin-top: 8rem;
+        margin-left: 17rem;
     }
 
     .sign-image {
@@ -1645,6 +1658,7 @@ select {
     }
 
     .manager {
+        margin-top: 6.5rem;
         margin-bottom: 1rem;
     }
 
